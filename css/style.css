@@ -79,6 +79,12 @@ input:focus {
 
 }
 
+.grid-3{
+  display: grid;
+  align-items: center;
+  grid-template-rows: auto;
+}
+
 .navCont {
   display: flex;
   flex-direction: row;
@@ -167,6 +173,33 @@ overflow: visible;
 .statsCont .grid{
    grid-template-columns: repeat(3,1fr);
 }
+
+
+/* CLI */
+.cliCont{
+  margin-left: 10rem;
+  align-items: center;
+}
+
+.cliCards{
+  width: 50%;
+  margin: 0rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cli .grid>*:first-child{
+   grid-columns: 1 / span 2;
+   grid-row: 1/ span 2;
+}
+
+/* Cloud */
+.cloud{
+  background-color: var(--main-bg-color);
+  padding: 2rem;
+  margin: 2rem 0rem;
+}
+
 /* buttons */
 
 .btn {
@@ -196,12 +229,19 @@ overflow: visible;
 
 }
 
-
-
 .formBtn {
   border: none;
   padding: 8px 22px;
   margin: 1rem 0rem;
+}
+
+.cloud .paraBtn{
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.cloudText{
+  text-align: center;
 }
 
 /* Text css */
@@ -243,6 +283,22 @@ margin-bottom: 10px;
 .staticPara{
   color: blue;
   font-weight: 300;
+}
+
+.cliHead{
+font-weight: 300;
+font-size: 1rem;
+}
+
+.cloudHeadText{
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cloudPara{
+  color: white;
+  font-size: 1.1rem;
 }
 
 .form-control {
