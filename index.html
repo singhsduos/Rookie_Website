@@ -13,8 +13,9 @@
 </head>
 
 <body>
+    <!-- navbar -->
     <div class="navbar">
-        <div class="conatiner grid navCont">
+        <div class="container grid navCont">
             <nav>
                 <h1 class="allText headText hText-1">Rookie</h1>
                 <ul>
@@ -28,7 +29,7 @@
 
     <!-- Showcase -->
     <section class="showcase">
-        <div class="conatiner grid showcaseCont">
+        <div class="container grid showcaseCont">
             <div class="showcaseDetails">
                 <h1 class="allText headText hText-2">Eaiser Deployment</h1>
                 <p class="allText paraText pText-1">Deploy web apps of all kinds, from large scale enterprise APIs to
@@ -39,21 +40,28 @@
 
             <div class="cards showCaseForm">
                 <h2 class="allText headText h2Text-1">Request a Demo</h2>
-                <form action="">
-
+                <form action="/submit">
+                    <div class="form-control">
+                        <input type="text" name="Name" placeholder="Name" id="" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="Company Name" placeholder="CompanyName" id="" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="Email" placeholder="Email" id="" required>
+                    </div>
                     <input type="submit" value="Send" class="btn formBtn">
                 </form>
-
             </div>
+
         </div>
     </section>
 
     <!-- Stats -->
     <section class="stats">
-        <div class="conatiner statsContainer">
+        <div class="container statsCont">
             <h3 class="allText headText h3Text-1">Welcome to the best platform for building applications of all types
                 with modern architecture and scaling</h3>
-
             <div class="grid statsIcons">
                 <div>
                     <i class="fas fa-server fa-3x"></i>
@@ -74,4 +82,114 @@
         </div>
     </section>
 
+    <!-- CLI -->
+    <section class="cli">
+        <div class="container grid grid-3">
+            <img class="cli-image" src="images/cli.png" alt="install command">
+            <div class="card cliCards">
+                <h3 class="allText headText cliHead">Easy to use, cross platform CLI</h3>
+            </div>
+            <div class="card cliCards">
+                <h3 class="allText headText cliHead">Deploy in seconds</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Cloud  -->
+    <section class="cloud">
+        <div class="container grid cloudCont">
+            <div class="cloudText">
+                <h2 class="allText headText cloudHeadText">
+                    Extreme Cloud Hosting
+                </h2>
+                <p class="allText paraText cloudPara">
+                    Cloud hosting like you've never seen.Fast,efficient and scalabel
+                </p>
+                <a href="features.html" class="btn paraBtn">Read More</a>
+            </div>
+            <img class="cloud-img" src="images/cloud.png" alt="cloud hosting image">
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="language">
+        <div class="container langcont">
+            <h2 class="allText headText langHeadText">
+                Supported Languages
+            </h2>
+            <div class="language-icons grid-7">
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        Node.js
+                    </h4>
+                    <img class="icon-img" src="images/logos/node.png" alt="language-icon">
+                </div>
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        Python
+                    </h4>
+                    <img class="icon-img" src="images/logos/python.png" alt="language-icon">
+                </div>
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        C#
+                    </h4>
+                    <img class="icon-img" src="images/logos/csharp.png" alt="language-icon">
+                </div>
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        Ruby
+                    </h4>
+                    <img class="icon-img" src="images/logos/ruby.png" alt="language-icon">
+                </div>
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        PHP
+                    </h4>
+                    <img class="icon-img" src="images/logos/php.png" alt="language-icon">
+                </div>
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        Scala
+                    </h4>
+                    <img class="icon-img" src="images/logos/scala.png" alt="language-icon">
+                </div>
+                <div class="cards langCards">
+                    <h4 class="allText headText iconHead">
+                        Clojure
+                    </h4>
+                    <img class="icon-img" src="images/logos/clojure.png" alt="language-icon">
+                    img
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container grid grid-3 footerCont">
+            <div class="footerText">
+                <h1 class="allText headText hText-1">Rookie</h1>
+                <p class="">Copyright &copy; 2021</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+
+            <div class="socialMedia">
+                <a href="https://github.com/singhsduos/Rookie_Website"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/neelesh-singh-b58a6b152/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/singhs_duos/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/singhs_duos"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+
+        </div>
+    </footer>
 </body>
+
+</html>
