@@ -200,6 +200,12 @@ overflow: visible;
   margin: 2rem 0rem;
 }
 
+/* Languages */
+.langCont{
+  display: flex;
+  flex-direction: row;
+}
+
 /* buttons */
 
 .btn {
