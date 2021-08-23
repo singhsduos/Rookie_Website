@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;500;700&display=swap");
 
+
+/*
+ ______________________________________________
+|                                              |
+|              DEFAULT BODY-TAG CSS            |
+|______________________________________________|
+
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -71,6 +80,13 @@ pre {
   margin: 5px 0px;
 }
 
+/*
+ ______________________________________________
+|                                              |
+|              UTILITIES CLASS                 |
+|______________________________________________|
+
+*/
 .navbar {
   background-color: var(--main-bg-color);
   height: 50px;
@@ -132,6 +148,15 @@ pre {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+
+/*
+ ______________________________________________
+|                                              |
+|              INDEX PAGE CSS                  |
+|______________________________________________|
+
+*/
+
 /* ShowCase */
 
 .showcase {
@@ -175,6 +200,7 @@ pre {
   transform: skewY(-2deg);
   overflow: hidden;
 }
+
 
 /* Stats */
 .stats {
@@ -331,7 +357,7 @@ pre {
 
 */
 
-/* DOC Head */
+/* DOC Head  And Feature Section Head*/
 .feature-head,
 .doc-head {
   background-color: var(--main-bg-color);
@@ -420,7 +446,13 @@ pre {
   margin-left: -5px;
 }
 
-/* buttons */
+/*
+ ______________________________________________
+|                                              |
+|              BUTTON CSS                      |
+|______________________________________________|
+
+*/
 
 .btn {
   display: inline-block;
@@ -463,7 +495,14 @@ pre {
   text-align: center;
 }
 
-/* Text css */
+/*
+ ______________________________________________
+|                                              |
+|               TEXT CSS                       |
+|______________________________________________|
+
+*/
+
 h1,
 h2 {
   font-weight: 300;
@@ -657,8 +696,6 @@ h2 {
     margin-right: 10rem;
   }
 
-
-
   .feature-head,
   .feature-sub-head,
   .doc-head {
@@ -697,7 +734,8 @@ h2 {
     margin-right: 5px;
   }
 }
-/* Mobile */
+
+/* Mobile  and below*/
 @media screen and (max-width: 500px) {
   ul {
     display: flex;
@@ -740,6 +778,15 @@ h2 {
   .h3Text-1 {
     margin: 5rem 0rem 2rem 0rem;
     width: 280px;
+  }
+
+  .cliCards {
+    margin: 0rem 2rem;
+  }
+
+  .cli img {
+    width: 340px;
+    margin-right: 8rem;
   }
 }
 
