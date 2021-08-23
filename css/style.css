@@ -201,9 +201,32 @@ overflow: visible;
 }
 
 /* Languages */
+.language{
+  text-align: center;
+}
+
 .langCont{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.langCards{
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  transition: 0.7s ease-in-out;
+  width: auto;
+}
+
+.langCards:hover,
+.langCards:focus{
+  transform: translateY(-15px);
+  /* transform: rotateY(360deg); */
+  cursor: pointer;
+
 }
 
 /* buttons */
@@ -305,6 +328,15 @@ font-size: 1rem;
 .cloudPara{
   color: white;
   font-size: 1.1rem;
+}
+
+.langHeadText{
+   font-size: 2.1rem;
+   margin-bottom: 1rem;
+}
+
+.iconHead{
+  margin-bottom: 1rem;
 }
 
 .form-control {
