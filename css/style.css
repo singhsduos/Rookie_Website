@@ -11,6 +11,7 @@
   --secondary-color: #ff99c8;
   --alert-color: #5cb85c;
   --code-bg: #333;
+  --light-bg: #f4f4f4;
 }
 
 body {
@@ -75,7 +76,7 @@ pre {
   height: 50px;
 }
 
-.container {
+.conti {
   padding: 0 5rem;
 }
 
@@ -91,7 +92,7 @@ pre {
 .grid-3 {
   display: grid;
   align-items: center;
-  grid-template-columns:repeat(3, 1fr) ;
+  grid-template-columns: repeat(3, 1fr);
   height: 100%;
   grid-gap: 5px;
   align-items: center;
@@ -278,11 +279,27 @@ pre {
 |______________________________________________|
 
 */
-.feature-main{
+
+.feature-sub-head {
+  padding: 0;
+  background-color: var(--light-bg);
+}
+
+.featureSubHeadText{
+  margin-bottom: 10px;
+}
+
+.feature-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+}
+
+
+.feature-main {
   margin: 2rem 0;
 }
 
-.featCard{
+.featCard {
   width: auto;
   height: 100%;
   display: flex;
@@ -291,19 +308,19 @@ pre {
   margin: 1rem;
 }
 
-.feature-main .grid-3{
+.feature-main .grid-3 {
   gap: 1em;
 }
 
-.featCard i{
+.featCard i {
   margin-right: 1.1rem;
 }
 
-.feature-main .grid>*:first-child{
+.feature-main .grid > *:first-child {
   grid-column: 1 / span 3;
 }
 
-.feature-main .grid>*:nth-child(2){
+.feature-main .grid > *:nth-child(2) {
   grid-column: 1 / span 2;
 }
 
@@ -468,7 +485,8 @@ h2 {
 
 .hText-2,
 .docHeadText,
-.featureHeadText {
+.featureHeadText,
+.featureSubHeadText {
   font-size: 3rem;
 }
 
@@ -518,7 +536,6 @@ h2 {
 .iconHead {
   margin-bottom: 1rem;
 }
-
 
 .footerText,
 .footer a {
