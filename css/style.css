@@ -224,9 +224,42 @@ overflow: visible;
 .langCards:hover,
 .langCards:focus{
   transform: translateY(-15px);
-  /* transform: rotateY(360deg); */
   cursor: pointer;
 
+}
+
+/* Footer */
+.footer{
+  background-color: var(--main-bg-color);
+  padding: 2rem;
+}
+
+.footer .grid{
+ grid-template-columns: 1fr 2fr 2fr;
+}
+
+.footerCont nav{
+  justify-content: center;
+}
+
+.footerCont 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footerCont li{
+  margin: 5px 20px;
+}
+
+.footerCont a{
+  padding: 1vw;
+}
+
+.socialMedia a{
+  margin: 0 5px;
+  padding: 0 10px;
 }
 
 /* buttons */
