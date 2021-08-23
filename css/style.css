@@ -72,14 +72,13 @@ input:focus {
 .grid {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.5rem;
   justify-content: center;
   height: 100%;
-
 }
 
-.grid-3{
+.grid-3 {
   display: grid;
   align-items: center;
   grid-template-rows: auto;
@@ -120,16 +119,15 @@ input:focus {
 
 /* ShowCase */
 
-.showcase{
+.showcase {
   background-color: var(--main-bg-color);
   position: relative;
   height: 400px;
 }
 
-
-
 .showcaseDetails {
   color: white;
+  animation: slideFromLeft 1s ease-in;
 }
 
 .showCaseForm {
@@ -140,72 +138,71 @@ input:focus {
   z-index: 100;
   position: relative;
   justify-self: flex-end;
- 
+  animation: slideFromRight 1s ease-in;
 }
 
-.showCaseCont .grid{
-grid-template-columns: 55% 44%;
-gap: 50px;
-overflow: visible;
+.showCaseCont .grid {
+  grid-template-columns: 55% 44%;
+  gap: 50px;
+  overflow: visible;
 }
 
 .showcase::before,
-.showcase::after{
-  content:'';
+.showcase::after {
+  content: "";
   position: absolute;
   height: 100px;
   bottom: -70px;
   border-radius: 30%;
   right: 0;
   left: 0;
-  background-color:white;
+  background-color: white;
   transform: skewY(-2deg);
   overflow: hidden;
-
 }
 
 /* Stats */
-.stats{
+.stats {
   margin-top: 5rem;
-   text-align: center;
+  text-align: center;
+  animation: slideFromBottom 1s ease-in;
 }
 
-.statsCont .grid{
-   grid-template-columns: repeat(3,1fr);
+.statsCont .grid {
+  grid-template-columns: repeat(3, 1fr);
 }
-
 
 /* CLI */
-.cliCont{
+.cliCont {
   margin-left: 10rem;
   align-items: center;
 }
 
-.cliCards{
+.cliCards {
   width: 50%;
   margin: 0rem;
   padding: 1rem;
   text-align: center;
 }
 
-.cli .grid>*:first-child{
-   grid-columns: 1 / span 2;
-   grid-row: 1/ span 2;
+.cli .grid > *:first-child {
+  grid-columns: 1 / span 2;
+  grid-row: 1 / span 2;
 }
 
 /* Cloud */
-.cloud{
+.cloud {
   background-color: var(--main-bg-color);
   padding: 2rem;
   margin: 2rem 0rem;
 }
 
 /* Languages */
-.language{
+.language {
   text-align: center;
 }
 
-.langCont{
+.langCont {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -213,7 +210,7 @@ overflow: visible;
   margin-bottom: 2rem;
 }
 
-.langCards{
+.langCards {
   text-align: center;
   padding: 20px;
   margin: 10px;
@@ -222,42 +219,40 @@ overflow: visible;
 }
 
 .langCards:hover,
-.langCards:focus{
+.langCards:focus {
   transform: translateY(-15px);
   cursor: pointer;
-
 }
 
 /* Footer */
-.footer{
-  background-color: var(--main-bg-color);
+.footer {
+  background-color: var(--secondary-color);
   padding: 2rem;
 }
 
-.footer .grid{
- grid-template-columns: 1fr 2fr 2fr;
+.footer .grid {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
-.footerCont nav{
+.footerCont nav {
   justify-content: center;
 }
 
-.footerCont 
-ul {
+.footerCont ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.footerCont li{
+.footerCont li {
   margin: 5px 20px;
 }
 
-.footerCont a{
+.footerCont a {
   padding: 1vw;
 }
 
-.socialMedia a{
+.socialMedia a {
   margin: 0 5px;
   padding: 0 10px;
 }
@@ -288,7 +283,6 @@ ul {
   border: 2px solid white;
   border-radius: 7px;
   padding: 7px 14px;
-
 }
 
 .formBtn {
@@ -297,12 +291,12 @@ ul {
   margin: 1rem 0rem;
 }
 
-.cloud .paraBtn{
+.cloud .paraBtn {
   border: none;
   background-color: var(--secondary-color);
 }
 
-.cloudText{
+.cloudText {
   text-align: center;
 }
 
@@ -321,8 +315,8 @@ h2 {
   font-size: 2.1rem;
 }
 
-.hText-1 a:hover{
- border-bottom: none; 
+.hText-1 a:hover {
+  border-bottom: none;
 }
 
 .hText-2 {
@@ -333,7 +327,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.h3Text-1{
+.h3Text-1 {
   font-weight: 300;
   margin: 3rem 20rem;
   width: 500px;
@@ -341,39 +335,44 @@ h2 {
   left: 0;
 }
 
-.staticHead{
-font-size: 1.5rem;
-margin-bottom: 10px;
+.staticHead {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
-.staticPara{
+.staticPara {
   color: blue;
   font-weight: 300;
 }
 
-.cliHead{
-font-weight: 300;
-font-size: 1rem;
+.cliHead {
+  font-weight: 300;
+  font-size: 1rem;
 }
 
-.cloudHeadText{
+.cloudHeadText {
   font-size: 3rem;
   color: white;
   margin-bottom: 1rem;
 }
 
-.cloudPara{
+.cloudPara {
   color: white;
   font-size: 1.1rem;
 }
 
-.langHeadText{
-   font-size: 2.1rem;
-   margin-bottom: 1rem;
+.langHeadText {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
 }
 
-.iconHead{
+.iconHead {
   margin-bottom: 1rem;
+}
+
+.footerText,
+.footer a {
+  color: white;
 }
 
 .form-control {
@@ -391,4 +390,45 @@ font-size: 1rem;
   justify-content: flex-end;
   padding-bottom: 50px;
   margin-bottom: 20px;
+}
+
+/* Animation */
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
