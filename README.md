@@ -3,6 +3,10 @@ This is a static cloud deployment website, just made for fun to practicse HTML &
 
 ### <a href="https://singhsduos.github.io/Rookie_Website/" target="_blank">**Visit Now 🚀**</a>
 
+## Things I learend
+1. Proper use of classes in HTML
+2. Grid Box, FlexBox and Animation
+
 ## Tech Stack
 ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
