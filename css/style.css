@@ -606,6 +606,7 @@ h2 {
   .feature-main .grid > *:nth-child(2) {
     grid-column: 1;
   }
+
   .cloud .headText,
   .hText-2,
   .docHeadText,
@@ -776,8 +777,19 @@ h2 {
   }
 
   .h3Text-1 {
-    margin: 5rem 0rem 2rem 0rem;
+    margin: 5rem 0rem 2rem -4rem;
     width: 280px;
+  }
+  
+  .showCaseCont{
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+  }
+
+  .showCaseForm {
+    width: 340px;
+    padding: 0rem 4rem;
+    margin: 0rem 4rem;
   }
 
   .cliCards {
@@ -786,7 +798,7 @@ h2 {
 
   .cli img {
     width: 340px;
-    margin-right: 8rem;
+    margin-right: 10rem;
   }
 }
 
