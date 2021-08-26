@@ -16,3 +16,9 @@ This is a static cloud deployment website, just made for fun to practicse HTML &
 <img src="https://raw.githubusercontent.com/singhsduos/Rookie_Website/main/images/web-img/Screenshot_20210824_015421.png" height=300 width=500/>
 <img src="https://raw.githubusercontent.com/singhsduos/Rookie_Website/main/images/web-img/Screenshot_20210824_015543.png" height=300 width=500/>
 <img src="https://raw.githubusercontent.com/singhsduos/Rookie_Website/main/images/web-img/Screenshot_20210825_235710.png" height=300 width=500/>
+
+## Demo-video
+
+https://user-images.githubusercontent.com/32032008/130990877-0737ae67-1494-4f19-8d43-f06d190b0554.mp4
+
+
