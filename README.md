@@ -1,5 +1,5 @@
 # Demo Cloud Deployment Static Rookie_Website
-This is a static cloud deployment website, just made for fun to practicse HTML & CSS
+This is a static cloud deployment website, just made for fun to practice HTML & CSS
 
 ### <a href="https://singhsduos.github.io/Rookie_Website/" target="_blank">**Visit Now 🚀**</a>
 
